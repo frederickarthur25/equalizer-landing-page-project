@@ -676,3 +676,246 @@ h2 {
     height: 20px;
     margin-left: 20px;
 }
+
+
+#footer {
+    display: grid; 
+    width: 696px;
+    height: 143px;
+    grid-template-columns: 100px 2fr 200px; 
+    grid-gap: 10px; 
+    margin-left: 80px; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 20px; 
+    margin-top: 1090px;
+}
+
+
+/*******************************************************************************************************************/
+
+#mobile {
+    margin-top: 100px;
+    width: 375px;
+    height: 1945px;
+    background-color: #ffffff;
+    background-image: url('bg-main-tablet.png');
+    margin-left: 50px;
+}
+
+#h1-mobile {
+    width:327px;
+    height: 144px;
+    font-size: 40px;
+    font-weight: bold;
+    word-spacing: -1px;
+    padding-left: 50px;
+    line-height: 48px;
+}
+
+#h2-mobile {
+    font-size: 40px;
+    font-weight: bold;
+    word-spacing: -1px;
+    padding-left: 50px;
+}
+
+#header-1-mobile {
+    width: 327px;
+    height: 156px;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+#iphone-mobile {
+    position: absolute;
+    width: 208.97px;
+    margin-top: 70px;
+    margin-left: 80px;
+    height: 430px;
+    z-index: 1;
+}
+
+
+#top-mobile {
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+#box-1-mobile {
+    width:375px;
+    height: 600px;
+    background-color: #191826;
+    border-radius: 20px;
+    margin-top: 220px;
+    position: absolute;
+}
+
+#box-2-mobile {
+    width: 375px;
+    height: 546px;
+    background-color: #fa7453;
+    border-radius: 20px;
+    margin-top: 590px;
+    margin-left: 0;
+    position: absolute;
+    z-index: 5;
+}
+
+#box-2-text-2-mobile {
+    padding-bottom: 30px;
+    width: 302px;
+    height: 140px;
+    letter-spacing: 0px;
+    text-align: start;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 28px;
+    margin-right: 20px;
+    margin-left: 30px;
+    color: #FCFAF9;
+}
+
+#box-2-text-1-mobile {
+    padding-left: 30px;
+    width: 302px;
+    height: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 32px;
+    line-height: 52px;
+    color: #FCFAF9;
+    margin-bottom: -5px;
+}
+
+#box-2-text-3-mobile {
+    color: #FCFAF9;
+    text-align: center;
+    margin-left: -190px;
+}
+
+#bg-pattern-1-mobile {
+    position:absolute;
+    margin-top: -1px;
+    width: 266.67px;
+    height: 400px;
+    margin-left: 500px;
+}
+
+
+#pattern-2-mobile {
+    width: 280px;
+    height: 420;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+
+#text-mobile {
+    text-align: center;
+    transform: rotate(-42deg);
+    line-height: 45px;
+    font-family: sans-serif;
+    font-size: 56px;
+    margin-top: 30px;
+    margin-left: -20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#text-2-mobile {
+    transform: rotate(-42deg);
+    line-height: 45px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 60px;
+    padding-right: 10px;
+    color: #9e9b9b;
+}
+
+
+#ios-button-mobile {
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    border-style: none;
+    width: 296px;
+    height: 61px;
+    margin-left: 30px;
+    border-radius: 10px;
+    display: flex;
+    background: #191826;
+    color: #FCFAF9;
+}
+
+#ios-img-mobile {
+    display: flex;
+    height: 20px;
+    width: 17.08px;
+    margin-right: 8px; 
+    margin-bottom: 4px;
+}
+
+#android-button-mobile {
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    align-items: center;
+    border-style: none;
+    width: 296px;
+    height: 61px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 30px;
+    background: #FCFAF9;
+    color: #191826;
+}
+
+#android-img-mobile {
+    height: 20px;
+    width: 16.7px;
+    margin-right: 8px;
+}
+
+#facebook-mobile {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+#instagram-mobile {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#tweeter-mobile {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+
+#footer-mobile {
+    display: grid; 
+    width: 696px;
+    height: 143px;
+    grid-template-columns: 100px 2fr 200px; 
+    grid-gap: 10px; 
+    margin-left: 80px; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 20px; 
+    margin-top: 1090px;
+}
+
