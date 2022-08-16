@@ -406,3 +406,14 @@ span {
         left: 85%;
     }
 }
+
+/*@mobile-mode*/
+@media screen and (max-width: 380px) and (min-width: 240px){
+    #container {
+        position: relative;
+        width: 375px;
+        height: 1945px;
+        background-image: url('bg-main-mobile.png');
+        margin: auto;
+    }
+}
