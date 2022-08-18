@@ -208,20 +208,20 @@ span {
 
 /*@desktop-active*/
 
-@media (max-width: 1500px) and (min-width: 1220px) and (hover:hover){
-    #ios-button {
+@media (max-width: 1500px) and (min-width: 1220px) {
+    #ios-button:hover {
         background-color: #66E2DC;
         color: #FCFAF9;
         cursor: pointer;
     }
 
-    #android-button {
+    #android-button:hover {
         background-color: #FFB964;
         color: #191826;
         cursor: pointer;
     }
 
-    #facebook{
+    #facebook:hover{
         cursor: pointer;
         content:url('https://www.pngitem.com/pimgs/m/19-196674_fb-icon-png-facebook-icon-orange-png-transparent.png');
     }
@@ -412,7 +412,7 @@ span {
 }
 
 /*@mobile-mode*/
-@media screen and (max-width: 380px) and (min-width: 1px){
+@media screen and (max-width: 380px){
     #container {
         position: relative;
         width: 375px;
