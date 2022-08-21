@@ -9,6 +9,7 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: #f2f2f2;
     margin-top: 100px;
+    max-width: 100%;
 }
 
 
@@ -193,7 +194,7 @@ h1 {
     height: 20px;
 }
 
-#price-box {
+#price-box { 
     position: absolute;
     top: 47%;
     left: 12%;
