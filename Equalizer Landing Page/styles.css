@@ -9,14 +9,13 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: #f2f2f2;
     margin-top: 100px;
-    max-width: 100%;
 }
 
 
 
 #container {
     position: relative;
-    width: 1440px;
+    max-width: 1440px;
     height: 1832px;
     background-image: url('bg-main-desktop.png');
     margin: auto;
@@ -209,7 +208,7 @@ span {
 
 /*@desktop-active*/
 
-@media (max-width: 1500px) and (min-width: 1220px) {
+@media (max-width: 1400px) and (min-width: 1220px) {
     #ios-button:hover {
         background-color: #66E2DC;
         color: #FCFAF9;
