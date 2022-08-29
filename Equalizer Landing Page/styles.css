@@ -17,6 +17,7 @@ body {
     max-width: 1440px;
     height: 1832px;
     background-image: url('bg-main-desktop.png');
+    background-size: 1613px 1758px;
     overflow: hidden;
 }
 
@@ -278,7 +279,7 @@ span {
     #phrase {
         text-align: justify;
         font-size: 18px;
-        font-weight: bold;
+        font-weight: 400;
         line-height: 28px;
         color: #191826;
     }
@@ -308,7 +309,7 @@ span {
     }
 
     #iphone {
-        top: 44%;
+        top: 34%;
         left: 14%;
         width: 280px;
         height: 560px;
@@ -319,23 +320,23 @@ span {
     #pattern-2-box {
         position: absolute;
         left: 5%;
-        top: 50%;
+        top: 42%;
         width: 696px;
         height: 600px;
         background-color: #191826;
     }
 
     #pattern-2 {
-        margin-top: -50px;
+        margin-top: -30px;
         width: 280px;
         height: 420px;
         position: absolute;
-        left: 38%;
+        left: 35%;
     }
 
     #box-2 {
         position: absolute;
-        top: 60%;
+        top: 50%;
         left: 38%;
         width: 399px;
         height: 546px;
@@ -350,8 +351,8 @@ span {
         font-size: 32px;
         font-weight: 700;
         line-height: 42px;
-        top: 3%;
-        left:12%;
+        top: 8%;
+        left: 12%;
     }
 
     #box-2-text-1 {
@@ -398,7 +399,7 @@ span {
         height: 143px;
         position: absolute;
         left: 5%;
-        bottom: -3%;
+        bottom: 5%;
         display: flex;
         flex-direction: column;
     }
@@ -482,7 +483,7 @@ span {
         width: 327px;
         height: 156px;
         position: absolute;
-        top: 17%;
+        top: 19%;
         left: 7%;
     }
 
@@ -573,9 +574,10 @@ span {
     }
 
     #footer {
+        display: flex;
+        flex-direction: column;
         width: 696px;
         height: 207px;
-        position: absolute;
         left: 5%;
         bottom: 5%;
     }
@@ -586,7 +588,6 @@ span {
     }
 
     #footer-text {
-        position: absolute;
         line-height: 26px;
         text-align: left;
         width: 327px;
@@ -598,10 +599,8 @@ span {
 
     #icons{
         position: absolute;
-        height: 20px;
-        width: 100px;
-        left: 0%;
-        bottom: 0;
+        bottom: -10%;
+        left: -77%;
     }
 
     #price-box {
