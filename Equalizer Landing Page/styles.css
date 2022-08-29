@@ -8,7 +8,6 @@
 body {
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: #f2f2f2;
-    margin-top: 100px;
 }
 
 
@@ -18,7 +17,7 @@ body {
     max-width: 1440px;
     height: 1832px;
     background-image: url('bg-main-desktop.png');
-    margin: auto;
+    overflow: hidden;
 }
 
 
@@ -27,11 +26,13 @@ h1 {
     font-size: 88px;
     font-weight: bold;
     letter-spacing: -1px;
+    line-height: 88px;
     color: #191826;
+    left: -5px;
 }
 
 #main-header {
-    left: 8%;
+    left: 0%;
     top: 10%;
     position: absolute;
     width: 1015px;
@@ -42,9 +43,10 @@ h1 {
 #phrase {
     text-align: justify;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 400;
     line-height: 34px;
     color: #191826;
+    margin-top: -40px;
 }
 
 #h2-container {
@@ -52,7 +54,7 @@ h1 {
     height: 102px;
     position: absolute;
     top: 25%;
-    left: 15%;
+    left: 6%;
 }
 
 #logo {
@@ -60,8 +62,8 @@ h1 {
     margin: auto;
     width: 147px;
     height: 32px;
-    left: 15%;
-    top: 4%;
+    left: 7%;
+    top: 2%;
 }
 
 
@@ -70,6 +72,7 @@ h1 {
     right: 0%;
     width: 312px;
     height: 428px;
+    top: -35px;
 }
  
 
@@ -124,6 +127,7 @@ h1 {
     font-size: 20px;
     text-align: left;
     line-height: 34px;
+    font-weight: 400;
     color: #FCFAF9;
     top: 20%;
     left: 12%;
@@ -224,6 +228,14 @@ span {
     #facebook:hover{
         cursor: pointer;
         content:url('https://www.pngitem.com/pimgs/m/19-196674_fb-icon-png-facebook-icon-orange-png-transparent.png');
+    }
+
+    #instagram:hover{
+        cursor: pointer;
+    }
+
+    #tweeter:hover{
+        cursor: pointer;
     }
 }
 
