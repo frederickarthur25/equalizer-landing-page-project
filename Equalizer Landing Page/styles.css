@@ -251,10 +251,10 @@ span {
 
 
 /*@tablet-mode*/
-@media screen and (max-width: 780px){
+@media screen and (max-width: 780px) and (min-width: 750px){
     #container {
         position: relative;
-        width: 768px;
+        max-width: 768px;
         height: 1781px;
         background-image: url('bg-main-tablet.png');
         background-size: 983px 808px;
@@ -440,7 +440,7 @@ span {
 @media screen and (max-width: 380px){
     #container {
         position: relative;
-        width: 375px;
+        max-width: 375px;
         height: 1945px;
         background-image: url('bg-main-mobile.png');
         background-size: 281.4px 480px;
@@ -463,6 +463,7 @@ span {
         font-size: 40px;
         font-weight: 700;
         letter-spacing: -0.45px;
+        line-height: 52px;
         color: #191826;
     }
 
@@ -490,7 +491,7 @@ span {
         width: 327px;
         height: 156px;
         position: absolute;
-        top: 19%;
+        top: 17%;
         left: 7%;
     }
 
@@ -596,6 +597,7 @@ span {
 
     #footer-text {
         line-height: 26px;
+        position: absolute;
         text-align: left;
         width: 327px;
         height: 105px;
@@ -606,7 +608,7 @@ span {
 
     #icons{
         position: absolute;
-        bottom: -10%;
+        bottom: -13%;
         left: -77%;
     }
 
