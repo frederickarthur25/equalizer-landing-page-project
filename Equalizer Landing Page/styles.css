@@ -203,7 +203,7 @@ h1 {
     right: 8%;
 }
 
-#facebook, #instagram, #twitter {
+#facebook, #instagram, #tweeter {
     width: 20px;
     height: 20px;
 }
@@ -243,10 +243,12 @@ span {
 
     #instagram:hover{
         cursor: pointer;
+        content:url('https://www.citypng.com/public/uploads/preview/-11590199311f0p0eosxyq.png');
     }
 
     #tweeter:hover{
         cursor: pointer;
+        content:url('https://p.kindpng.com/picc/s/30-300890_twitter-bird-transparent-background-orange-twitter-logo-transparent.png');
     }
 }
 
